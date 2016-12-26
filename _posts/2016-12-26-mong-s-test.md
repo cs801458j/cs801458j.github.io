@@ -19,3 +19,5 @@ share: true
 그리고 몰라
 
 그리고 아몰랑
+
+![123]({{ site.url }}/assets/posts/2016-12-26-mong-s-test-36702.jpg)
