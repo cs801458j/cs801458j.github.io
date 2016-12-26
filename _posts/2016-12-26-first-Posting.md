@@ -14,3 +14,7 @@ Inflearn의 Node.js 강의를 들었고 강의의 약 반절 이상을 들었다
 
 내일은 계절학기라 늦게 자면 안되니까...
 이렇게 핑계를 대며 포스팅을 내일로 미뤄본다.
+
+test입니둥
+
+![]({{ site.url }}/assets/posts/2016-12-26-first-Posting-49943.jpg)
