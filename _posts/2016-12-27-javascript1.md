@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Nodejs1"
-description: ""
+title: "JavaScript1"
+description: "자바스크립트(JavaScript)란 무엇인가 & HTML 속의 자바스크립트"
 date: "2016-12-27 15:06"
 tag: []
 comments: true
