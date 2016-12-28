@@ -9,7 +9,11 @@ share: true
 ---
 
 
+<<<<<<< HEAD
 ## 자바스크립트(JavaScript)란 무엇인가 & HTML 속의 자바스크립트  
+=======
+## 자바스크립트(JavaScript)란 무엇인가 & HTML 속의 자바스크립트  
+>>>>>>> 90e90b4b20acdcbe1a54f55f012931b6169eef5f
 
 
 #### 본 내용은 프론트엔드 개발자를 위한 자바스크립트에 기반합니다.
@@ -30,19 +34,34 @@ HTML 명세에 공식적으로 문서화된 녀석.
 ### 2.1 `<script>`요소
 
 HTML에 삽입할 때 `<script></script>` 이런 형태로 삽입된다.
+<<<<<<< HEAD
 `<script>`옵션의 종류는 6 가지가 있다는데 여기서는 생략.
 이것 보다는 `<script>`의 두 가지 사용법에 대해 적겠다.
+=======
+<script>옵션의 종류는 6 가지가 있다는데 여기서는 생략.
+이것 보다는 <script>의 두 가지 사용법에 대해 적겠다.
+>>>>>>> 90e90b4b20acdcbe1a54f55f012931b6169eef5f
 
 #### 1) 인라인 자바스크립트 코드
 스크립트 요소 내부에 직접 작성한 코드를 의미한다.
 해석은 위->아래 순서로 해석된다.
 
+<<<<<<< HEAD
 `<script type="text/javascript">
 function sayHi(){
   alert("Hi");
 }
 </script>`
 
+=======
+ ```javascript
+<script type="text/javascript">
+function sayHi(){
+  alert("Hi");
+}
+</script>
+```
+>>>>>>> 90e90b4b20acdcbe1a54f55f012931b6169eef5f
 
 #### 2) 외부 파일 불러오기
 자바스크립트를 외부 파일에서 불러오려면 src 속성을 사용하면 된다.
