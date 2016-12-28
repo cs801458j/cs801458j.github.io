@@ -33,30 +33,22 @@ HTML에 삽입할 때 `<script></script>` 이런 형태로 삽입된다.
 `<script>`옵션의 종류는 6 가지가 있다는데 여기서는 생략.
 이것 보다는 `<script>`의 두 가지 사용법에 대해 적겠다.
 
-<script>옵션의 종류는 6 가지가 있다는데 여기서는 생략.
-이것 보다는 <script>의 두 가지 사용법에 대해 적겠다.
-
 
 #### 1) 인라인 자바스크립트 코드
 스크립트 요소 내부에 직접 작성한 코드를 의미한다.
 해석은 위->아래 순서로 해석된다.
 
-
-``` javascript
-<script type="text/javascript">
+`<script type="text/javascript">
 function sayHi(){
   alert("Hi");
 }
-</script>
-```
+</script>`
 
 #### 2) 외부 파일 불러오기
 자바스크립트를 외부 파일에서 불러오려면 src 속성을 사용하면 된다.
 src속성에 파일의 URL을 지정해주면 간단하게 불러올 수 있다.
 
-``` javascript
-<script type="text/javascript" src="example.js"></script>
-```
+`<script type="text/javascript" src="example.js"></script>`
 
 (이 파일 내부에는 스크립트 태그를 사용하면 안된다!)
 인라인 코드처럼 코드를 해석하는 동안에는 페이지 처리가 멈춤.
