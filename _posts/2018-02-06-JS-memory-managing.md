@@ -44,7 +44,7 @@ someElement.addEventListener('click', function(){
   someElement.style.color = 'green';
   }, false);  //  함수식 또한 객체를 담기 위한 메모리를 할당한다.
 ```
-
+-----------------------------------
 
 ### 함수 호출을 통한 할당
 
