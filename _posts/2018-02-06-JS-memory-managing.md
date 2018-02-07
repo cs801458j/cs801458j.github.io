@@ -28,7 +28,8 @@
 
 - 자바스크립트에서는 프로그래머들이 메모리를 하나하나 할당하는 고생을 줄여주기 위해 **값을 선언할 때** 메모리를 할당합니다.
 
-```var _integer = 3; // 메모리 할당(정수)
+```
+var _integer = 3; // 메모리 할당(정수)
 var _string = "eunjeong" // 메모리 할당(문자열)
 
 var person = {
@@ -48,13 +49,14 @@ someElement.addEventListener('click', function(){
 
 ### 함수 호출을 통한 할당
 
-```//  몇 가지 함수에서도 메모리 할당이 일어납니다.
+- 몇 가지 함수에서도 메모리 할당이 일어납니다.
+~~~
 var date = new Date(); // Date 개체를 위해 메모리 할당
 var domElement = document.createElement('div'); //  DOM 엘리먼트를 위해 메모리를 할당
+~~~
+
+- 메소드 일부도 새로운 값이나 객체를 담기 위해 메모리 할당을 한다.
 ```
-
-
-```//  메소드 일부도 새로운 값이나 객체를 담기 위해 메모리 할당을 한다.
 var _string = "hello";
 var _string2 = _string.substr(0,3); //  js에서 문자열은 불변(immutable)하는 값이기 때문에 범위 (0,3)만 저장(메모리 새로 할당하지 않음)
 
