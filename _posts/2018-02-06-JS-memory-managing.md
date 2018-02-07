@@ -62,7 +62,7 @@ var _string2 = _string.substr(0,3); //  js에서 문자열은 불변(immutable)�
 
 var _array = ["hello", "world"];
 var _array2 = ["goodbye", "world"];
-var _array3 = _array.concat(_array2); //  새로운 배열(원소 개수 = 4)
+var _array3 = _array.concat(_array2); //  새로운 배열 원소 개수 = 4
 ~~~
 
 ## 값 사용
@@ -87,7 +87,8 @@ var _array3 = _array.concat(_array2); //  새로운 배열(원소 개수 = 4)
 
 - Reference-counting은 **어떤 다른 오브젝트도 참조하지 않는 오브젝트** 를 찾아 그 오브젝트에 대해 가비지 컬렉션을 수행하는 알고리즘이다.
 
-```var outerObject = {
+~~~
+var outerObject = {
   midObject:{
     innerObj:2
   }
@@ -103,7 +104,7 @@ outerObject2 = "hello"; //  outerObject 변수가 참조했던 오브젝트를 �
 // 하지만, 아직 outerObject의 midObject속성이 'outerObjectM' 변수에 의해 참조되서 아직 가비지 콜렉션 수행되지 않는다.
 
 outerObjectM = null;  //  outerObject가 참조했던 오브젝트를 참조하는 다른 변수가 이제 모두 없어졌으므로 가비지 콜렉션 수행.
-```
+~~~
 
 ### 한계
 
