@@ -45,6 +45,7 @@ someElement.addEventListener('click', function(){
   }, false);  //  함수식 또한 객체를 담기 위한 메모리를 할당한다.
 ```
 
+
 ### 함수 호출을 통한 할당
 
 ```//  몇 가지 함수에서도 메모리 할당이 일어납니다.
