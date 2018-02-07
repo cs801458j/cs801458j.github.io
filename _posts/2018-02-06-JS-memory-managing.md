@@ -56,14 +56,14 @@ var domElement = document.createElement('div'); //  DOM 엘리먼트를 위해 �
 ~~~
 
 - 메소드 일부도 새로운 값이나 객체를 담기 위해 메모리 할당을 한다.
-```
+~~~
 var _string = "hello";
 var _string2 = _string.substr(0,3); //  js에서 문자열은 불변(immutable)하는 값이기 때문에 범위 (0,3)만 저장(메모리 새로 할당하지 않음)
 
 var _array = ["hello", "world"];
 var _array2 = ["goodbye", "world"];
 var _array3 = _array.concat(_array2); //  새로운 배열(원소 개수 = 4)
-```
+~~~
 
 ## 값 사용
 
