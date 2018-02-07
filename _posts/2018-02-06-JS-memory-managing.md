@@ -54,7 +54,7 @@ someElement.addEventListener('click', function(){
 var date = new Date(); // Date 개체를 위해 메모리 할당
 var domElement = document.createElement('div'); //  DOM 엘리먼트를 위해 메모리를 할당
 ~~~
-
+-----------------------------------------------
 - 메소드 일부도 새로운 값이나 객체를 담기 위해 메모리 할당을 한다.
 ~~~
 var _string = "hello";
@@ -64,6 +64,7 @@ var _array = ["hello", "world"];
 var _array2 = ["goodbye", "world"];
 var _array3 = _array.concat(_array2); //  새로운 배열 원소 개수 = 4
 ~~~
+------------------------------------
 
 ## 값 사용
 
@@ -86,7 +87,7 @@ var _array3 = _array.concat(_array2); //  새로운 배열 원소 개수 = 4
 ### Reference-counting(참조-세기) 가비지 컬렉션
 
 - Reference-counting은 **어떤 다른 오브젝트도 참조하지 않는 오브젝트** 를 찾아 그 오브젝트에 대해 가비지 컬렉션을 수행하는 알고리즘이다.
-
+--------------------------------------
 ~~~
 var outerObject = {
   midObject:{
